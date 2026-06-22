@@ -54,40 +54,93 @@ The dataset is stored as:
 
 # North Star Metric
 
-Selected Metric: Paid Conversion Rate
+Selected North Star Metric: Paid Conversion Rate
 
 Definition
 
+Paid Conversion Rate measures the percentage of users who convert into paying subscribers.
+
+Formula:
+
 Paid Conversion Rate = Number of Paid Conversions ÷ Total Users
 
-Why This Is the North Star Metric
+---
 
-Paid conversion directly measures the business objective of turning users into paying subscribers. Since the company operates on a subscription-based model, increasing paid conversions directly contributes to revenue growth and long-term business sustainability.
+Why This Is the Main Success Metric
 
-Supporting Metrics
+The objective of the onboarding and activation campaign is to increase the number of users who become paying customers. Since the company operates on a subscription-based business model, paid conversion directly reflects whether the campaign successfully drives business growth.
 
-The following metrics support the North Star metric:
+A higher paid conversion rate means:
 
-- Landing Page Visit Rate
-- Trial Start Rate
-- Onboarding Completion Rate
-- Average Revenue Per User (ARPU)
-- Average Revenue Per Converted User
-- Engagement Score
-- Days to Convert
+- More users are becoming customers.
+- Revenue potential increases.
+- Customer acquisition efforts become more effective.
+- Long-term subscription growth improves.
 
-These metrics explain user behavior and help identify which stages of the onboarding funnel contribute to conversion success.
+Because the experiment is specifically designed to improve user activation and conversion, Paid Conversion Rate is the most appropriate North Star metric.
 
-Risks of Optimizing Only This Metric
+---
 
-Improving conversion alone may lead to unintended consequences, such as:
+Why Other Metrics Are Supporting Metrics
 
-- Increased refund requests
-- Higher support burden
-- Lower user satisfaction
-- Reduced quality of acquired customers
+Several metrics help explain user behavior but do not directly measure business success.
 
-Therefore, guardrail metrics must also be evaluated before making a rollout decision.
+Landing Page Visit Rate
+
+Indicates whether users enter the onboarding funnel but does not generate revenue by itself.
+
+Trial Start Rate
+
+Measures activation interest but does not guarantee payment.
+
+Onboarding Completion Rate
+
+Shows onboarding effectiveness but does not necessarily lead to conversion.
+
+Engagement Score
+
+Measures user interaction and product usage but is not the final business outcome.
+
+Average Revenue Per User (ARPU)
+
+Provides revenue insights but depends on users first converting into paying customers.
+
+Days to Convert
+
+Measures conversion speed but not conversion success.
+
+These metrics are valuable for understanding performance drivers, but they support the North Star metric rather than replace it.
+
+---
+
+Connection to Business Growth
+
+Paid Conversion Rate directly impacts company growth because every additional converted user contributes to subscription revenue.
+
+Improvements in paid conversion can lead to:
+
+- Higher recurring revenue
+- Better customer acquisition efficiency
+- Improved return on marketing investment
+- Greater long-term customer value
+
+Therefore, increasing Paid Conversion Rate aligns closely with the company's strategic objectives.
+
+---
+
+Risks of Optimizing This Metric Blindly
+
+Focusing only on Paid Conversion Rate may create unintended business problems.
+
+Potential risks include:
+
+- Increased refund requests from low-quality conversions
+- Higher support ticket volume due to onboarding confusion
+- Poor customer experience
+- Lower customer retention after conversion
+- Performance declines within specific user segments
+
+For this reason, Paid Conversion Rate must be evaluated alongside guardrail metrics such as Refund Rate, Support Ticket Rate, Engagement Score, and Segment-Level Performance before making a rollout decision.
 
 ---
 
