@@ -1,7 +1,7 @@
 # anushka_bitsom_ba_2511785_part2_kpi_experiment
 Part 2: KPI Framework, Business Experiment Analysis & Decision Recommendation
 
-Business Context
+# Business Context
 
 This project analyzes the performance of a new onboarding and activation campaign launched by a subscription-based digital product company. The company aims to improve user activation, engagement, and conversion into paying subscribers.
 
@@ -24,7 +24,7 @@ Success will be evaluated using a primary North Star metric supported by additio
 
 ---
 
-Dataset Description
+# Dataset Description
 
 The dataset contains user-level experiment data collected from both Control and Treatment groups.
 
@@ -52,7 +52,7 @@ The dataset is stored as:
 
 ---
 
-North Star Metric
+# North Star Metric
 
 Selected Metric: Paid Conversion Rate
 
@@ -91,7 +91,7 @@ Therefore, guardrail metrics must also be evaluated before making a rollout deci
 
 ---
 
-KPI Tree Summary
+# KPI Tree Summary
 
 North Star Metric:
 
@@ -167,7 +167,7 @@ The cleaned dataset and analysis workbook are available in:
 
 ---
 
-Experiment Analysis Approach
+# Experiment Analysis Approach
 
 The analysis compared Control and Treatment groups across key business metrics, including:
 
@@ -196,7 +196,7 @@ Results are summarized in:
 
 ---
 
-Hypothesis Testing
+# Hypothesis Testing
 
 Metric Tested
 
@@ -239,7 +239,7 @@ Evidence screenshot:
 
 ---
 
-Guardrail Metrics Considered
+# Guardrail Metrics Considered
 
 To ensure business improvement is sustainable, the following guardrail metrics were evaluated:
 
@@ -255,7 +255,7 @@ These metrics were reviewed to identify any negative side effects associated wit
 
 ---
 
-Final Recommendation
+# Final Recommendation
 
 Recommendation: Launch
 
@@ -269,7 +269,7 @@ Therefore, the recommendation is to proceed with a broader rollout of the treatm
 
 ---
 
-Assumptions and Limitations
+# Assumptions and Limitations
 
 - Experiment assignment is assumed to be random.
 - Revenue quality is evaluated using available revenue fields only.
@@ -279,7 +279,7 @@ Assumptions and Limitations
 
 ---
 
-Repository Contents
+# Repository Contents
 
 Data
 
